@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document api rest ajax</title>
+</head>
+<body>
+    <section id="crud">
+        <article>
+            <h2 class="crud-title">Agregar</h2>
+            <form action="get" class="crud-form">
+                <input type="text" name="nombre" placeholder="nombre">
+                <br>
+                <input type="text" name="apellido" placeholder="Apellidos"><br>
+                <input type="text" name="correo" placeholder="Correo"><br>
+                <input type="password" name="password" placeholder="contrasena"><br>
+                <input type="text" name="motivo" placeholder=" Motivo de su registro">
+                <input type="submit" value="Enviar">
+                <input type="hidden" name="id">
+            </form>
+        </article>
+        <article>
+            <h2>Ver usuarios</h2>
+            <table class="crud-table">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Motivo</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody class="cuerpo">
+
+                </tbody>
+            </table>
+        </article>
+    </section>
+    <template class="crud-template">
+         <tr>
+             <td class="nombre"></td>
+             <td class="motivo"></td>
+             <td>
+                 <button class="editar">Editar</button>
+                 <button class="eliminar">Eliminar</button>
+             </td>
+         </tr>
+    </template>
+    <script src="crud-ajax.js"></script>
+</body>
+</html>

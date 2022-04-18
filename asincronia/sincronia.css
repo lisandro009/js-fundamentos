@@ -1,0 +1,15 @@
+.progress-cont,.progress-cont1,.progress-cont2{
+    width: 400px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: aliceblue;
+}
+
+.progress-bar ,.progress-bar1,.progress-bar2{
+    width: 0%;
+    height: 15px;
+    border-radius: 50px;
+    transition: all 0.5s;
+    max-width: 100%;
+    background-color: yellowgreen;
+}

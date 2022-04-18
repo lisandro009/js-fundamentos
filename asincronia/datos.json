@@ -1,0 +1,6 @@
+{
+    "cadena": "hola mundo",
+    "numero": 54,
+    "booleano":true,
+    "arreglo": ["uno","dos","tres"]
+}

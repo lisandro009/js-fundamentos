@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Termplate</h1>
+    <p>Sirven para no plasmar varias veces en el html elementos desde js, ya que genera menos rendimiento</p>
+    <p>Asi solo se le pega una sola ves al dom</p>
+    <section id="seccion">
+        <figure>
+            <img src="https://placeimg.com/200/200/animals" alt="animal">
+            <figcaption>Animales</figcaption>
+        </figure>
+    </section>
+    <section class="cards">
+        <template id="template">
+            <figure>
+                <img>
+                <figcaption></figcaption>
+            </figure>
+        </template>
+    </section>
+    <script src="templates.js"></script>
+</body>
+</html>

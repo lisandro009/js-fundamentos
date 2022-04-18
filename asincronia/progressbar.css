@@ -1,0 +1,17 @@
+.progress_bg{
+    width: 350px;
+    border-radius: 50px;
+    height: 10px;
+    background-color: #bcf3ff;
+
+}
+
+.progress_bar{
+    width: 0%;
+    height: 100%;
+    border-radius: 50px;
+    transition: all 0.5s;
+    max-width: 100%;
+    background-color: blueviolet;
+}
+

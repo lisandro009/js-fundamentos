@@ -1,0 +1,21 @@
+h1 {
+    --angle: 0 deg; 
+    width: auto;
+    height: 10vmin;
+    border: .8rem solid;
+    border-image: linear-gradient(var(--angle), #00cc99, #eef0f5,#60f) 1;
+    animation: 3s rotate linear infinite;
+    text-align: center;
+}
+
+@keyframes rotate{
+    to{
+        --angle:360deg;
+    }
+}
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits :false;
+}

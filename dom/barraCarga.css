@@ -1,0 +1,16 @@
+.barra-container,.barra-container2{
+    width: 200px;
+    height: 10px;
+    background: silver;
+    border-radius: 10px;
+}
+
+.barra,.barra2{
+    width: 0px;
+    height: 10px;
+    border-radius: 10px;
+    transition: all 0.5s;   
+    max-width: 100%;
+    background: blueviolet;
+    
+}
