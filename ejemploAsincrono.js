@@ -31,6 +31,7 @@ function carga (){
  })
 funcionAsincrona();
 // async function funcionAsincrona(){
+    //try{
 //    await carga();
 //    let lista=document.getElementById("dias");
 //    let listaDeDias="";
@@ -41,7 +42,7 @@ funcionAsincrona();
 //   }
 //   }else{
 //       lista.innerHTML=`<li>Los datos no se han cargado</li>`
-//  }
+//  }}catch(e) console.log("error"+e);
 // }
 
 
