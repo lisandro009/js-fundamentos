@@ -9,6 +9,7 @@ const objetoJS={
     },
     nulo:null,
 }
+
 console.log(objetoJS);
 console.log(JSON.stringify(objetoJS));
 console.log("{}"); // esto es texto aunque parezca un arreglo, en la cosola aparece en color negro
